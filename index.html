@@ -240,45 +240,6 @@ button{
   font-size:16px;
   cursor:pointer;
 }
-<!-- NEWSLETTER SIGNUP -->
-<section class="contact">
-  <div class="container">
-
-    <h2>Join My Newsletter</h2>
-    <p>Monthly insights on real estate investing, deals, and lessons learned.</p>
-
-    <div id="mc_embed_signup">
-
-      <form 
-        action="https://gmail.us10.list-manage.com/subscribe/post?u=fe514bb8b43c8596ff8b9e534&amp;id=c20055e19f&amp;f_id=003c29e2f0"
-        method="post"
-        target="_blank"
-        novalidate>
-
-        <!-- Email -->
-        <input type="email" name="EMAIL" placeholder="Email address" required>
-
-        <!-- First Name -->
-        <input type="text" name="FNAME" placeholder="First name">
-
-        <!-- Last Name -->
-        <input type="text" name="LNAME" placeholder="Last name">
-
-        <!-- Bot Protection -->
-        <div style="position:absolute; left:-5000px;">
-          <input type="text" name="b_fe514bb8b43c8596ff8b9e534_c20055e19f">
-        </div>
-
-        <!-- Submit -->
-        <button type="submit">Subscribe</button>
-
-      </form>
-
-    </div>
-
-  </div>
-</section>
-<!-- END NEWSLETTER -->
 
 /* ---------- FOOTER ---------- */
 footer{
@@ -444,6 +405,32 @@ footer{
     </form>
   </div>
 </section>
+<!-- NEWSLETTER SIGNUP (Mailchimp) -->
+  <section class="contact" id="newsletter">
+    <div class="container">
+      <h2>Join My Newsletter</h2>
+      <p>Monthly insights on real estate investing, deals, and lessons learned.</p>
+
+      <div id="mc_embed_signup">
+        <form 
+          action="https://gmail.us10.list-manage.com/subscribe/post?u=fe514bb8b43c8596ff8b9e534&amp;id=c20055e19f&amp;f_id=003c29e2f0"
+          method="post"
+          target="_blank"
+          novalidate>
+
+          <input type="email" name="EMAIL" placeholder="Email address" required>
+          <input type="text" name="FNAME" placeholder="First name">
+          <input type="text" name="LNAME" placeholder="Last name">
+
+          <div style="position:absolute; left:-5000px;">
+            <input type="text" name="b_fe514bb8b43c8596ff8b9e534_c20055e19f">
+          </div>
+
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
 
 <!-- FOOTER -->
 <footer>

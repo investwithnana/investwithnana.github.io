@@ -6,6 +6,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
+  #mc_embed_signup{
+  max-width:700px;
+  margin:0 auto;
+}
+
+#mc_embed_signup input{
+  width:100%;
+  padding:14px;
+  margin-bottom:18px;
+  border-radius:6px;
+  border:1px solid #ccc;
+  font-size:16px;
+}
+
+#mc_embed_signup button{
+  padding:12px 32px;
+  background:#111;
+  color:white;
+  border:none;
+  border-radius:6px;
+  font-size:16px;
+  cursor:pointer;
+}
+
+#mc_embed_signup button:hover{
+  background:#333;
+}
+
 /* ---------- BASE ---------- */
   html, body{
   width:100%;
@@ -212,6 +240,45 @@ button{
   font-size:16px;
   cursor:pointer;
 }
+<!-- NEWSLETTER SIGNUP -->
+<section class="contact">
+  <div class="container">
+
+    <h2>Join My Newsletter</h2>
+    <p>Monthly insights on real estate investing, deals, and lessons learned.</p>
+
+    <div id="mc_embed_signup">
+
+      <form 
+        action="https://gmail.us10.list-manage.com/subscribe/post?u=fe514bb8b43c8596ff8b9e534&amp;id=c20055e19f&amp;f_id=003c29e2f0"
+        method="post"
+        target="_blank"
+        novalidate>
+
+        <!-- Email -->
+        <input type="email" name="EMAIL" placeholder="Email address" required>
+
+        <!-- First Name -->
+        <input type="text" name="FNAME" placeholder="First name">
+
+        <!-- Last Name -->
+        <input type="text" name="LNAME" placeholder="Last name">
+
+        <!-- Bot Protection -->
+        <div style="position:absolute; left:-5000px;">
+          <input type="text" name="b_fe514bb8b43c8596ff8b9e534_c20055e19f">
+        </div>
+
+        <!-- Submit -->
+        <button type="submit">Subscribe</button>
+
+      </form>
+
+    </div>
+
+  </div>
+</section>
+<!-- END NEWSLETTER -->
 
 /* ---------- FOOTER ---------- */
 footer{
